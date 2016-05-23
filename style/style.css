@@ -11,35 +11,41 @@ body {
 
 }
 
-/*.links {
-  margin-left: 40%;
-}*/
+.links nav {
+  background-color: white;
+  width: 100%;
+/*  margin: 0;*/
+}
 
 nav {
-  margin-top: 75px;
+  /*margin-top: 75px;*/
   display: inline;
   margin-bottom: 10px;
-  margin-left: 35%;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-bottom: 10px;
   position: absolute;
   float: left;
 }
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 25px;
   /*background: linear-gradient(to right, black, white);*/
-  background-color: rgba(0, 0, 0, 0.9);
+ /* background-color: rgba(0, 0, 0, 0.9);
   border-radius: 25px;
-  box-shadow: 2px 2px gray;
+  box-shadow: 2px 2px gray;*/
   padding: 5px;
   /*border: 3px solid blue;*/
   display: inline;
   float: left;
   font-family: helvetica;
-  margin-right: 10px;
-  width: 125px;
+  margin-right: 125px;
   text-align: center;
+  border: white;
+  background: white;
+/*    width: 100px;*/
   
 }
 
