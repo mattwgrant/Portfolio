@@ -11,6 +11,16 @@ body {
 
 }
 
+#nameStyle {
+  font-size: 25px;
+  float: left;
+  padding: 5px; 
+  margin-right: 20px;
+  color: red;
+  font-family: times;
+/*  background-color: black;*/
+}
+
 .links nav {
   background-color: white;
   width: 100%;
@@ -22,10 +32,14 @@ nav {
   display: inline;
   margin-bottom: 10px;
   padding-top: 10px;
-  padding-left: 25px;
+  padding-left: 50px;
   padding-bottom: 10px;
-  position: absolute;
+  position: fixed;
   float: left;
+}
+
+nav p {
+  display: inline;
 }
 
 nav a {
@@ -57,21 +71,29 @@ nav a {
   border: none;
 }
 
+#about {
+  margin-right: 35px;
+  margin-left: 50px;
+}
+
 .social {
   display: inline;
-  margin-top: 70px;
-  float: left;
-  position: relative;
-  margin-left: 40%;
+  /*margin-top: 70px;*/
+  /*float: right;*/
+  /*position: fixed;*/
+ /* margin-left: 40%;*/
+  z-index: 1;
+  /*margin-right: 10px;*/
+  margin-left: 10px;
+  padding-top: 10px;
 }
 
 .social a {
   text-decoration: none;
   color: black;
- /* box-shadow: 2px 2px gray;
-  border: none;
-  outli*/
-
+  font-size: 15px;
+  margin-left: 20px;
+  z-index: 10;
 }
 
 .links nav {
@@ -79,22 +101,36 @@ nav a {
   z-index: 1;
 }
 
-.social {
- /* display: inline-block;*/
+/*.social {
+  display: inline-block;
   float: left;
-  /*position: absolute;*/
+  position: absolute;
   margin-left: 10px;
   margin-top: 200px;
-  /*z-index: 1;*/
+  z-index: 1;
 }
 
 .social a {
   display: block;
   margin-bottom: 7px;
-}
+}*/
 
 
 .container {
   margin-top: 30px;
+  margin-bottom: 125px;
+}
+
+#resumeLink {
+  text-decoration: none;
+  color: black;
+  font-family: helvetica;
+  font-size: 35px;
+  margin-left: 35px;
+  margin-bottom: 10px;
+}
+
+.contactSection {
+  margin-bottom: 50px;
 }
 
