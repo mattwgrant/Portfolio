@@ -36,6 +36,7 @@ nav {
   padding-bottom: 10px;
   position: fixed;
   float: left;
+  width: 100%;
 }
 
 nav p {
@@ -101,20 +102,6 @@ nav a {
   z-index: 1;
 }
 
-/*.social {
-  display: inline-block;
-  float: left;
-  position: absolute;
-  margin-left: 10px;
-  margin-top: 200px;
-  z-index: 1;
-}
-
-.social a {
-  display: block;
-  margin-bottom: 7px;
-}*/
-
 h1 {
   text-align: center;
 }
@@ -134,57 +121,13 @@ h1 {
 }
 
 .contactSection {
-  margin-bottom: 250px;
+  margin-bottom: 400px;
 }
 
-#m {
-  font-size: 35px;
+li {
+  list-style-type: none;
 }
 
-#a1 {
-  font-size: 30px;
-  margin-bottom: 10px;
 
-}
-
-#t1 {
-  font-size: 25px;
-}
-
-#t2 {
-
-}
-
-#h {
-
-}
-
-#e {
-
-}
-
-#w {
-
-}
-
-#g {
-
-}
-
-#r {
-
-}
-
-#a2 {
-
-}
-
-#n {
-
-}
-
-#t3 {
-
-}
 
 
