@@ -5,8 +5,8 @@ html {
 body {
   /*background: linear-gradient(to bottom right, white, silver, black);*/
   height: 100%;
-/*  background-repeat: no-repeat;
-  background-attachment: fixed;*/
+  margin: 0;
+  padding: 0;
   background-color: rgb(240, 234, 214);
 
 }
