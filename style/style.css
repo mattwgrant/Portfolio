@@ -16,7 +16,7 @@ body {
   float: left;
   padding: 5px; 
   margin-right: 20px;
-  color: red;
+  color: black;
   font-family: times;
 /*  background-color: black;*/
 }
@@ -115,6 +115,10 @@ nav a {
   margin-bottom: 7px;
 }*/
 
+h1 {
+  text-align: center;
+}
+
 
 .container {
   margin-top: 30px;
@@ -127,10 +131,60 @@ nav a {
   font-family: helvetica;
   font-size: 35px;
   margin-left: 35px;
-  margin-bottom: 10px;
 }
 
 .contactSection {
-  margin-bottom: 50px;
+  margin-bottom: 250px;
 }
+
+#m {
+  font-size: 35px;
+}
+
+#a1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+
+}
+
+#t1 {
+  font-size: 25px;
+}
+
+#t2 {
+
+}
+
+#h {
+
+}
+
+#e {
+
+}
+
+#w {
+
+}
+
+#g {
+
+}
+
+#r {
+
+}
+
+#a2 {
+
+}
+
+#n {
+
+}
+
+#t3 {
+
+}
+
 
