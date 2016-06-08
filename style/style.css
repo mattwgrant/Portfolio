@@ -38,6 +38,7 @@ nav {
   float: left;
   width: 100%;
   margin-left: none;
+  overflow: hidden;
 }
 
 nav p {
