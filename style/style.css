@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(240, 234, 214);
+  overflow: hidden;
 
 }
 
@@ -38,6 +39,7 @@ nav {
   float: left;
   margin-left: none;
   overflow: hidden;
+  border-bottom-color: 2px solid black;
 }
 
 nav p {
@@ -61,6 +63,7 @@ nav a {
   text-align: center;
   border: white;
   background: white;
+
 /*    width: 100px;*/
   
 }
@@ -121,14 +124,26 @@ h1 {
   margin-left: 35px;
 }
 
-.contactSection {
-  margin-bottom: 300px;
-}
-
 li {
   list-style-type: none;
 }
 
+#projects {
+  background-color: green;
+  padding-bottom: 100px;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+
+#contact {
+  background-color: orange;
+  padding-bottom: 400px;
+}
 
 
 
