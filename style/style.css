@@ -175,6 +175,26 @@ nav a.selected, nav a:hover {
   text-decoration: none;
 }
 
+footer {
+  font-size: 0.75ems;
+  text-align: center;
+  padding-top: 50px;
+  color: #ccc;
+  clear: both;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
 
 
 
