@@ -192,6 +192,10 @@ footer {
   margin-top: 10px;
 }
 
+footer a:hover {
+  color: #757083;
+}
+
 .social-icon {
   width: 20px;
   height: 20px;
@@ -235,6 +239,13 @@ PAGE CONTACT
   background-size: 20px 20px;
   padding: 0 0 0 30px;
   margin: 0 0 10px;
+  text-decoration: none;
+  color: #474056;
+}
+
+.contact-info a:hover {
+  color: #757083;
+  text-decoration: none;
 }
 
 .contact-info li.phone a {
