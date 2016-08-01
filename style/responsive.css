@@ -37,6 +37,19 @@
     border-bottom: 5px solid #fff;
     margin-bottom: 60px;
   }
-}
+
+  #aboutPic {
+    width: 50%;
+    display: inline;
+    float: left;
+    margin-left: 10%;
+  }
+
+  #aboutBio {
+    width: 40%;
+    margin-left: 5%;
+    display: inline;
+    clear: left;
+  }
 
 }

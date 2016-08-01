@@ -146,9 +146,19 @@ li {
 }
 
 .wrapper {
-  max-width: 940px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 5%;
+}
+
+#aboutPic {
+  margin-left: 30%;
+  float: left;
+}
+
+#aboutBio {
+  display: block;
+  clear: left;
 }
 
 
@@ -184,14 +194,16 @@ nav a.selected, nav a:hover {
 }
 
 footer {
-  font-size: 0.75ems;
+  font-size: 0.75em;
   text-align: center;
   padding-top: 50px;
   color: #ccc;
   clear: both;
   position: absolute;
-  margin-left: 28%;
+  margin-left: 40%;
   margin-top: 10px;
+  clear: right;
+  bottom: 0;
 }
 
 footer a:hover {
@@ -214,10 +226,10 @@ footer a:hover {
   margin-left: 25%;
 }
 
-#aboutPage {
+/*#aboutPage {
   margin-bottom: 10%;
   margin-left: -10%;
-}
+}*/
 
 /********************* 
 PAGE CONTACT
